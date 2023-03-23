@@ -27,5 +27,37 @@
    background-color: white;
    color: black;
   }
-  
+  .articels{
+    width: 100%;
+    background-color: rgb(255, 255, 255); 
+    padding: 2%;
+  }
+.articels >input{
+    width: 60%;
+}
+.articels >button{
+    color: white;
+    background-color: black;
+    padding: 1%;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 4%
+}
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top :10%; ;
+}
+.icons >div{
+background-color: white;
+margin: 4%;
+padding: 4%;
+box-shadow: 5px 5px 5px rgb(212, 210, 210);
+
+}
+.payment{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
