@@ -19,4 +19,13 @@
     
 
   }
- 
+  .menu >h1{
+    margin-top: 4%;
+    padding: 4%;
+  }
+  .menu >h1:hover{
+   background-color: white;
+   color: black;
+  }
+  
+
