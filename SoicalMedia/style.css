@@ -10,6 +10,11 @@
 }
 .Two-1{
   display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Two-11{
+  display: flex;
   flex-direction: row;
   gap: 5px;
 }
