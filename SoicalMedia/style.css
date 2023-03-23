@@ -8,6 +8,10 @@
   height: 80px;
   border-radius: 50px;
 }
+.Two{
+  display: flex;
+  flex-direction: row;
+}
 .Two-1{
   display: flex;
   flex-direction: column;
@@ -17,4 +21,18 @@
   display: flex;
   flex-direction: row;
   gap: 5px;
+}
+.Two-1One{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.Two-1One >h4{
+ position: relative;
+ bottom: 20px;
+}
+
+.Two-3{
+  display: flex;
+  flex-direction: column;
 }
